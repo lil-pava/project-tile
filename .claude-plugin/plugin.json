@@ -1,0 +1,29 @@
+{
+  "name": "project-tile",
+  "version": "0.2.0",
+  "description": "A Project pane for the Claude desktop app: every session of the project with its status, reply buttons, alerts and the resources it uses",
+  "author": { "name": "lil-pava" },
+  "homepage": "https://github.com/lil-pava/project-tile",
+  "repository": "https://github.com/lil-pava/project-tile",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "clusterHost": {
+      "type": "string",
+      "title": "PBS cluster ssh host",
+      "description": "user@host of a PBS cluster whose queue (qstat) the pane shows; empty for none",
+      "default": ""
+    },
+    "clusterName": {
+      "type": "string",
+      "title": "Cluster name",
+      "description": "The cluster's name in the pane",
+      "default": "Cluster"
+    },
+    "nodePath": {
+      "type": "string",
+      "title": "node command",
+      "description": "The node executable the pane runs its collector with; empty to look in PATH and the usual places",
+      "default": ""
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "lil-pava",
+  "owner": { "name": "lil-pava" },
+  "plugins": [
+    {
+      "name": "project-tile",
+      "source": "./",
+      "description": "A Project pane for the Claude desktop app: every session of the project with its status, reply buttons, alerts and the resources it uses"
+    }
+  ]
+}
