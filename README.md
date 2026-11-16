@@ -91,3 +91,7 @@ Sessions refresh every 20 seconds and after each turn; the cluster every 2 minut
 claude plugin test .
 node --test scripts/ps.check.mjs
 ```
+
+## License
+
+MIT, see [LICENSE](LICENSE).

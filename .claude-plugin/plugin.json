@@ -5,6 +5,7 @@
   "author": { "name": "lil-pava" },
   "homepage": "https://github.com/lil-pava/project-tile",
   "repository": "https://github.com/lil-pava/project-tile",
+  "license": "MIT",
   "types": "./types/index.d.ts",
   "userConfig": {
     "clusterHost": {
